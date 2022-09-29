@@ -28,8 +28,3 @@ with open(csv_file_path,'r') as read_obj:
         ack = producer.send(topic,key=keys.encode('utf-8'),value=json.dumps(row).encode('utf-8'))
         metadata = ack.get()
         print(metadata)
-
-
-
-
-

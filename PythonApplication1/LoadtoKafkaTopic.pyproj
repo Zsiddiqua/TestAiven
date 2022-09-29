@@ -5,7 +5,7 @@
     <ProjectGuid>99fe9bce-e419-41b8-91e3-86e9ef7ecab9</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>PythonApplication1.py</StartupFile>
+    <StartupFile>KafkaProducer.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="PythonApplication1.py" />
+    <Compile Include="KafkaProducer.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
