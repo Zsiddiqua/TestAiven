@@ -14,7 +14,6 @@ producer = KafkaProducer(
  )
 
 csv_file_path = filepath+r'\\nationGridUpcomingTrades.csv'
-json_file_path = filepath+r'\\nationGridUpcomingTrades.json'
 topic = 'NationalGridTrades'
  
 with open(csv_file_path,'r') as read_obj:
