@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "LoadtoKafkaTopic", "PythonApplication1\LoadtoKafkaTopic.pyproj", "{99FE9BCE-E419-41B8-91E3-86E9EF7ECAB9}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "jsonRead", "jsonRead\jsonRead.pyproj", "{7BA091A1-F8F1-4A9A-9B7B-FE323369F2C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99FE9BCE-E419-41B8-91E3-86E9EF7ECAB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99FE9BCE-E419-41B8-91E3-86E9EF7ECAB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BA091A1-F8F1-4A9A-9B7B-FE323369F2C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BA091A1-F8F1-4A9A-9B7B-FE323369F2C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCA84DBD-D5E5-4BC2-88B3-9493546A665A}
+	EndGlobalSection
+EndGlobal
